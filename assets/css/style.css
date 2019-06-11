@@ -1,0 +1,169 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px black;
+  font-size: 18px;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.jumbotron, img, .card, .carousel-caption {
+  border-radius: 100%;
+  background-color: black;
+}
+
+/* @media only screen and (max-width: 600px) {
+  #profile {
+    max-width: 150px;
+  }
+} */
+
+#profile {
+  max-width: 50%;
+}
+
+body {
+  background-image: url("../images/astrology-astronomy-beautiful-2387877.jpg");
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#welcome {
+  background-image: url("../images/moon.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+#prof-frame {
+  background-image: url("../images/close-up-color-colour-73873.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+.card {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+#email {
+  background-image: url("../images/sun.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+#resume {
+  background-image: url("../images/saturn.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+#linkedin {
+  background-image: url("../images/linkedin.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+#twitter {
+  background-image: url("../images/twitter.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+#voicemail {
+  background-image: url("../images/jupiter.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+#github {
+  background-image: url("../images/github.png");
+  background-position: center;
+  background-size: 100%;
+  background-color: #ffffff;
+}
+
+#html {
+  background-image: url("../images/html-5.png");
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+#css {
+  background-image: url("../images/css-3.png");
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+#js {
+  background-image: url("../images/javascript.png");
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+#node {
+  background-image: url("../images/nodejs.png");
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+#react {
+  background-image: url("../images/reactjs.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#bootstrap {
+  background-image: url("../images/bootstrap.jpg");
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+#jquery {
+  background-image: url("../images/jquery.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#mongo {
+  background-image: url("../images/mongodb.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+#mysql {
+  background-image: url("../images/mysql.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#ucla {
+  background-image: url("../images/ucla-extension-logo.jpg");
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  position: static;
+  height: 100%;
+  opacity: 0.8;
+  padding: 1%;
+  font-style: italic;
+}

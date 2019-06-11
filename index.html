@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Robert Thomas Bolton</title>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Robert Bolton</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Web Development - Welcome <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="home">
+      <div class="d-flex flex-row justify-content-center" style="width: 100%; height: 800px; margin-top: 100px;">
+        <div class="jumbotron text-center" id="welcome" style="width: 300px; height: 300px; padding-top: 120px;">
+          <h1>Welcome!</h1>
+        </div>
+      </div>
+      <div id="portfolio" style="height: 60px;"></div>
+      <h2>Portfolio</h2>
+      <div class="bd" style="margin-bottom: 300px">
+          <div id="carouselPortfolio" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselPortfolio" data-slide-to="1"></li>
+              <li data-target="#carouselPortfolio" data-slide-to="2"></li>
+              <li data-target="#carouselPortfolio" data-slide-to="3"></li>
+              <li data-target="#carouselPortfolio" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://eia1981.github.io/Groupprojectone/index.html?" target="_blank">
+                  <img src="assets/images/Concert-Concierge.gif" class="d-block w-100" alt="Concert Concierge">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="https://eia1981.github.io/Groupprojectone/index.html?" target="_blank">
+                    <h5>Concert Concierge</h5>
+                  </a>
+                  <p>A concert finder that uses AJAX to find concerts and travel information through APIs.
+                  <br>Multi-dev team project. <a href="https://github.com/EIA1981/Groupprojectone.git" target="_blank">Github Repo</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://therobshock.github.io/unit-4-game/" target="_blank">
+                  <img src="assets/images/Crystal-Collector.gif" class="d-block w-100" alt="Infinity Collector">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="https://therobshock.github.io/unit-4-game/" target="_blank">
+                    <h5>"Infinity Collector"</h5>
+                  </a>
+                  <p>Random numbers game using jQuery. Styled with Bootstrap and CSS. <br><a href="https://github.com/therobshock/unit-4-game.git" target="_blank">Github Repo</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://therobshock.github.io/TriviaGame/" target="_blank">
+                  <img src="assets/images/Trivia-Game.gif" class="d-block w-100" alt="Trivia Awakens">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="https://therobshock.github.io/TriviaGame/" target="_blank">
+                    <h5>"The Trivia Awakens"</h5>
+                  </a>
+                  <p>Timed trivia game using jQuery. Styled with Bootstrap and CSS. <br><a href="https://github.com/therobshock/TriviaGame.git" target="_blank">Github Repo</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://pacific-ravine-32817.herokuapp.com/" target="_blank">
+                  <img src="assets/images/doggy-diary.png" class="d-block w-100" alt="Doggy Diary">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="https://pacific-ravine-32817.herokuapp.com/" target="_blank">
+                    <h5>Doggy Diary</h5>
+                  </a>
+                  <p>Dog stat tracker using MVC framework with Handlebars and Sequelize database. Uses data to find info about dog breeds.
+                  <br>Multi-dev team project. <a href="https://github.com/Nomad9-0/Doggy-Diary.git" target="_blank">Github Repo</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://therobshock.github.io/trainscheduler/" target="_blank">
+                  <img src="assets/images/Train-Scheduler.gif" class="d-block w-100" alt="Train Scheduler">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="https://therobshock.github.io/trainscheduler/" target="_blank">
+                    <h5>Train Scheduler</h5>
+                  </a>
+                  <p>Back-end proof-of-concept project using firebase database. <br><a href="https://github.com/therobshock/trainscheduler.git" target="_blank">Github Repo</a></p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselPortfolio" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselPortfolio" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div id="about" style="height: 60px;"></div>
+        <h2>About</h2>
+        <div class="jumbotron text-center" id="prof-frame"><img class="img-fluid" id="profile" src="assets/images/Rob Shock BW (2).jpg" alt="Robert Bolton"></div>
+        <div>
+          <p>Hi. My name is Rob and I love to make web apps! I use all the tools I know: html, CSS, Javascript, Bootstrap, Node.js, and many others; for the full stack. I’m still in training and my skills are green, but I love it! And I’m getting better by the minute.
+
+              Check out my stuff I did in class. There’s a couple of games, an app using persistent storage on the back end, and a search app called Concert Concierge intended to allow the user to find out-of-town events and travel and hotel bookings all in one. All apps are proof-of-concept version. Once you’ve tried it, contact me and let me know how I did. I can’t wait to hear from you!</p>
+        </div>
+        <div class="d-flex flex-row justify-content-around flex-wrap align-content-around" style="margin-bottom: 300px;">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+            <div class="card" id="html" title="html-5"></div>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+            <div class="card" id="css" title="CSS"></div>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">
+            <div class="card" id="js" title="Javascript"></div>
+          </a>
+          <a href="https://nodejs.org/en/docs/" target="_blank">
+            <div class="card" id="node" title="NodeJS"></div>
+          </a>
+          <a href="https://reactjs.org/" target="_blank">
+            <div class="card" id="react" title="ReactJS"></div>
+          </a>
+          <a href="https://getbootstrap.com/" target="_blank">
+            <div class="card" id="bootstrap" title="Bootstrap"></div>
+          </a>
+          <a href="https://api.jquery.com/" target="_blank">
+            <div class="card" id="jquery" title="JQuery"></div>
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank">
+            <div class="card" id="mongo" title="MongoDB"></div>
+          </a>
+          <a href="https://www.mysql.com/" target="_blank">
+            <div class="card" id="mysql" title="MySQL"></div>
+          </a>
+          <a href="https://bootcamp.uclaextension.edu/coding/" target="_blank">
+            <div class="card" id="ucla" title="UCLA Extension"></div>
+          </a>
+        </div>
+        <div id="contact" style="height: 60px;"></div>
+        <div style="height: 800px; width: 100%;">
+          <h2 id="contact">Contact</h2>
+          <div class="d-flex flex-row justify-content-around flex-wrap align-content-around">
+            <a href="mailto:therobshock@yahoo.com">
+              <div class="card" id="email">
+                <p>email 
+                  <br style>therobshock@yahoo.com</p>
+              </div>
+            </a>
+            <a href="tel:661-703-6541">
+              <div class="card" id="voicemail">
+                <p>voicemail
+                  <br> 661- <br> 703-6541</p>
+                </div>
+              </a>
+              <a href="./assets/resume/Resume.pdf" target="_blank">
+                <div class="card" id="resume">Résumé</div>
+              </a>
+              <a href="https://github.com/therobshock" target="_blank">
+                <div class="card" id="github">
+                  <p style="text-shadow: 1px 1px black">github</p>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/robert-bolton-5b2777175/" target="_blank">
+                <div class="card" id="linkedin">linkedin</div>
+              </a>
+              <a href="https://twitter.com/robshock" target="_blank">
+                <div class="card" id="twitter">twitter</div>
+              </a>
+            </div>
+          </div>
+    </div>
+    <footer class="text-light bg-dark text-center">
+      <div class="mx-3 my-2">Copyright © 2019 Robert Thomas Bolton All rights reserved 
+        <div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.485007ef522c697f01e0939f5e500a2d.1560213838810.1560213838810.1560213838810.1&__hssc=57440181.5.1560213838812&__hsfp=458632707" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      </div>
+    </footer>
+    
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
