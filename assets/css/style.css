@@ -51,18 +51,18 @@ body {
   position: relative;
 }
 
+.card {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
 #welcome {
   background-image: url("../images/moon.jpg");
 }
 
 #prof-frame {
   background-image: url("../images/close-up-color-colour-73873.jpg");
-}
-
-.card {
-  height: 100px;
-  width: 100px;
-  margin: 20px;
 }
 
 #email {

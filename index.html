@@ -25,7 +25,7 @@
       </div>
     </nav>
     <div class="container" id="home">
-      <div class="d-flex flex-row justify-content-center" style="width: 100%; height: 800px; margin-top: 100px;">
+      <div class="d-flex flex-row justify-content-center" id="home-div" style="width: 100%; height: 800px; margin-top: 100px;">
         <div class="jumbotron text-center" id="welcome" style="width: 300px; height: 300px; padding-top: 120px;">
           <h1>Welcome!</h1>
         </div>
@@ -115,13 +115,15 @@
         </div>
         <div id="about" style="height: 60px;"></div>
         <h2>About</h2>
-        <div class="jumbotron text-center" id="prof-frame"><img class="img-fluid" id="profile" src="assets/images/Rob Shock BW (2).jpg" alt="Robert Bolton"></div>
+        <div class="jumbotron text-center" id="prof-frame">
+          <img class="img-fluid" id="profile" src="assets/images/Rob Shock BW (2).jpg" alt="Robert Bolton">
+        </div>
         <div class="text-light bg-dark rounded" id="message" style="padding: 5px;">
           <p>Hi. My name is Rob and I love to make web apps! I use all the tools I know: html, CSS, Javascript, Bootstrap, Node.js, and many others; for the full stack. I’m still in training and my skills are green, but I love it! And I’m getting better by the minute.
 
               Check out my stuff I did in class. There’s a couple of games, an app using persistent storage on the back end, and a search app called Concert Concierge intended to allow the user to find out-of-town events and travel and hotel bookings all in one. All apps are proof-of-concept version. Once you’ve tried it, contact me and let me know how I did. I can’t wait to hear from you!</p>
         </div>
-        <div class="d-flex flex-row justify-content-around flex-wrap align-content-around" style="margin-bottom: 300px;">
+        <div class="d-flex flex-row justify-content-center flex-wrap align-content-around" id="tool-icons" style="margin-bottom: 300px;">
           <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
             <div class="card" id="html" title="html-5"></div>
           </a>
@@ -154,38 +156,36 @@
           </a>
         </div>
         <div id="contact" style="height: 60px;"></div>
-        <div style="height: 800px; width: 100%;">
-          <h2 id="contact">Contact</h2>
-          <div class="d-flex flex-row justify-content-around flex-wrap align-content-around">
-            <a href="mailto:therobshock@yahoo.com">
-              <div class="card" id="email">
-                <p>email 
-                  <br style>therobshock@yahoo.com</p>
+        <h2>Contact</h2>
+        <div class="d-flex flex-row justify-content-around flex-wrap align-content-around" id="contact-icons" style="margin-bottom: 300px;">
+          <a href="mailto:therobshock@yahoo.com">
+            <div class="card" id="email">
+              <p>email 
+                <br style>therobshock@yahoo.com</p>
+            </div>
+          </a>
+          <a href="tel:661-703-6541">
+            <div class="card" id="voicemail">
+              <p>voicemail
+                <br> 661- <br> 703-6541</p>
               </div>
             </a>
-            <a href="tel:661-703-6541">
-              <div class="card" id="voicemail">
-                <p>voicemail
-                  <br> 661- <br> 703-6541</p>
-                </div>
-              </a>
-              <a href="./assets/resume/Resume.pdf" target="_blank">
-                <div class="card" id="resume">Résumé</div>
-              </a>
-              <a href="https://github.com/therobshock" target="_blank">
-                <div class="card" id="github">
-                  <p style="text-shadow: 1px 1px black">github</p>
-                </div>
-              </a>
-              <a href="https://www.linkedin.com/in/robert-bolton-5b2777175/" target="_blank">
-                <div class="card" id="linkedin">linkedin</div>
-              </a>
-              <a href="https://twitter.com/robshock" target="_blank">
-                <div class="card" id="twitter">twitter</div>
-              </a>
-            </div>
+            <a href="./assets/resume/Resume.pdf" target="_blank">
+              <div class="card" id="resume">Résumé</div>
+            </a>
+            <a href="https://github.com/therobshock" target="_blank">
+              <div class="card" id="github">
+                <p style="text-shadow: 1px 1px black">github</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/robert-bolton-5b2777175/" target="_blank">
+              <div class="card" id="linkedin">linkedin</div>
+            </a>
+            <a href="https://twitter.com/robshock" target="_blank">
+              <div class="card" id="twitter">twitter</div>
+            </a>
           </div>
-    </div>
+        </div>
     <footer class="text-light bg-dark text-center">
       <div class="mx-3 my-2">Copyright © 2019 Robert Thomas Bolton All rights reserved 
         <div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.485007ef522c697f01e0939f5e500a2d.1560213838810.1560213838810.1560213838810.1&__hssc=57440181.5.1560213838812&__hsfp=458632707" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
