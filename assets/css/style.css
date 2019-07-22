@@ -60,7 +60,7 @@ body {
 .app-card {
   border-radius: 100%;
   height: 250px;
-  width: 450px;
+  width: 100%;
 }
 
 #welcome {
