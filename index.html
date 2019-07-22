@@ -77,98 +77,116 @@
       </div>
     <div id="portfolio" style="height: 60px;"></div>
       <h2>Portfolio</h2>
-      <div class="bd mb-2">
-          <div id="carouselPortfolio" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselPortfolio" data-slide-to="1"></li>
-              <li data-target="#carouselPortfolio" data-slide-to="2"></li>
-              <li data-target="#carouselPortfolio" data-slide-to="3"></li>
-              <li data-target="#carouselPortfolio" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="https://eia1981.github.io/Groupprojectone/index.html?" target="_blank">
-                  <img src="assets/images/Concert-Concierge.gif" class="d-block w-100" alt="Concert Concierge">
+              <!-- 
+              Concert Concierge
+                link: https://eia1981.github.io/Groupprojectone/index.html?
+                git: https://github.com/EIA1981/Groupprojectone.git
+                image: assets/images/Concert-Concierge.gif
+              
+              Get Your Shit Together
+                link: https://get-your-shit-together.herokuapp.com/dashboard
+                git: https://github.com/therobshock/get-your-shit-together-1
+                image: assets/images/GetYourShitTogether.png
+
+              Infinity Collector
+                link: https://therobshock.github.io/infinity-collector/
+                git: https://github.com/therobshock/infinity-collector
+                image: assets/images/Crystal-Collector.gif
+
+              Trivia Game:
+                link: https://therobshock.github.io/TriviaGame/
+                git: https://github.com/therobshock/TriviaGame.git
+                image: assets/images/Trivia-Game.gif
+
+              Doggy Diary
+                link: https://pacific-ravine-32817.herokuapp.com/
+                git: https://github.com/Nomad9-0/Doggy-Diary.git
+                image: assets/images/doggy-diary.png
+              -->
+        <div class="d-flex flex-row justify-content-around flex-wrap align-content-around" id="tool-icons" style="margin-bottom: 300px;">
+        
+            <div class="m-3">
+              <a href="https://eia1981.github.io/Groupprojectone/index.html?" target="_blank">
+                <div class="app-card" id="app1" title="Concert Concierge"></div>
+              </a>
+              <div class="text-light bg-dark rounded" id="" style="padding: 5px;">
+                <a href="https://eia1981.github.io/Groupprojectone/index.html?">
+                  <h3>Concert Concierge</h3>
                 </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="https://eia1981.github.io/Groupprojectone/index.html?" target="_blank">
-                    <h5>Concert Concierge</h5>
-                  </a>
-                  <p>A concert finder that uses AJAX to find concerts and travel information through APIs.
-                  <br>Multi-dev team project. <a href="https://github.com/EIA1981/Groupprojectone.git" target="_blank">Github Repo</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://get-your-shit-together.herokuapp.com/dashboard" target="_blank">
-                  <img src="assets/images/GetYourShitTogether.png" class="d-block w-100" alt="Infinity Collector">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="https://get-your-shit-together.herokuapp.com/dashboard" target="_blank">
-                    <h5>Get Your S#!t Together</h5>
-                  </a>
-                  <p>Full-stack ReactJS app using MongoDB to help you declutter yourself.<br><a href="https://github.com/therobshock/groupproject3" target="_blank">Github Repo</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://therobshock.github.io/unit-4-game/" target="_blank">
-                  <img src="assets/images/Crystal-Collector.gif" class="d-block w-100" alt="Infinity Collector">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="https://therobshock.github.io/unit-4-game/" target="_blank">
-                    <h5>"Infinity Collector"</h5>
-                  </a>
-                  <p>Random numbers game using jQuery. Styled with Bootstrap and CSS. <br><a href="https://github.com/therobshock/unit-4-game.git" target="_blank">Github Repo</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://therobshock.github.io/TriviaGame/" target="_blank">
-                  <img src="assets/images/Trivia-Game.gif" class="d-block w-100" alt="Trivia Awakens">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="https://therobshock.github.io/TriviaGame/" target="_blank">
-                    <h5>"The Trivia Awakens"</h5>
-                  </a>
-                  <p>Timed trivia game using jQuery. Styled with Bootstrap and CSS. <br><a href="https://github.com/therobshock/TriviaGame.git" target="_blank">Github Repo</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://pacific-ravine-32817.herokuapp.com/" target="_blank">
-                  <img src="assets/images/doggy-diary.png" class="d-block w-100" alt="Doggy Diary">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="https://pacific-ravine-32817.herokuapp.com/" target="_blank">
-                    <h5>Doggy Diary</h5>
-                  </a>
-                  <p>Dog stat tracker using MVC framework with Handlebars and Sequelize database. <br>Uses data to find info about dog breeds.
-                  <br>Multi-dev team project. <a href="https://github.com/Nomad9-0/Doggy-Diary.git" target="_blank">Github Repo</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://therobshock.github.io/trainscheduler/" target="_blank">
-                  <img src="assets/images/Train-Scheduler.gif" class="d-block w-100" alt="Train Scheduler">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="https://therobshock.github.io/trainscheduler/" target="_blank">
-                    <h5>Train Scheduler</h5>
-                  </a>
-                  <p>Back-end proof-of-concept project using firebase database. <br><a href="https://github.com/therobshock/trainscheduler.git" target="_blank">Github Repo</a></p>
-                </div>
+                <p>
+                    Github: <a href="https://github.com/EIA1981/Groupprojectone.git">https://github.com/EIA1981/Groupprojectone.git</a>
+                  <br>Link: <a href="https://eia1981.github.io/Groupprojectone/index.html?">https://eia1981.github.io/Groupprojectone/index.html?</a>
+                  <br>
+                </p>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselPortfolio" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselPortfolio" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        
+            <div class="m-3">
+              <a href="https://get-your-shit-together.herokuapp.com/dashboard" target="_blank">
+                <div class="app-card" id="app2" title="Get Your S#!T Together"></div>
+              </a>
+              <div class="text-light bg-dark rounded" id="" style="padding: 5px;">
+                  <a href="https://get-your-shit-together.herokuapp.com/dashboard">
+                    <h3>Get Your S#!T Together!</h3>
+                  </a>
+                  <p>
+                    Github: <a href="https://github.com/therobshock/get-your-shit-together-1">https://github.com/therobshock/get-your-shit-together-1</a>
+                    <br>Link: <a href="https://get-your-shit-together.herokuapp.com/dashboard">https://get-your-shit-together.herokuapp.com/dashboard</a>
+                    <br>
+                  </p>
+                </div>
+              </div>
+        
+            <div class="m-3">
+              <a href="https://therobshock.github.io/infinity-collector/" target="_blank">
+                <div class="app-card" id="app3" title="Infinity Collector"></div>
+              </a>
+              <div class="text-light bg-dark rounded" id="" style="padding: 5px;">
+                  <a href="https://therobshock.github.io/infinity-collector/">
+                    <h3>Infinity Collector</h3>
+                  </a>
+                  <p>
+                    Github: <a href="https://github.com/therobshock/infinity-collector">https://github.com/therobshock/infinity-collector</a>
+                    <br>Link: <a href="https://therobshock.github.io/infinity-collector/">https://therobshock.github.io/infinity-collector/</a>
+                    <br>
+                  </p>
+                </div>
+              </div>
+        
+            <div class="m-3">
+              <a href="https://therobshock.github.io/TriviaGame/" target="_blank">
+                <div class="app-card" id="app4" title="Trivia Game"></div>
+              </a>
+              <div class="text-light bg-dark rounded" id="" style="padding: 5px;">
+                  <a href="https://therobshock.github.io/TriviaGame/">
+                    <h3>Trivia Game</h3>
+                  </a>
+                  <p>
+                    Github: <a href="https://github.com/therobshock/TriviaGame.git">https://github.com/therobshock/TriviaGame.git</a>
+                    <br>Link: <a href="https://therobshock.github.io/TriviaGame/">https://therobshock.github.io/TriviaGame/</a>
+                    <br>
+                  </p>
+                </div>
+              </div>
+        
+            <div class="m-3">
+              <a href="https://pacific-ravine-32817.herokuapp.com/" target="_blank">
+                <div class="app-card" id="app5" title="Doggy Diary"></div>
+              </a>
+              <div class="text-light bg-dark rounded" id="" style="padding: 5px;">
+                  <a href="https://pacific-ravine-32817.herokuapp.com/">
+                    <h3>Doggy Diary</h3>
+                  </a>
+                  <p>
+                    Github: <a href="https://github.com/Nomad9-0/Doggy-Diary.git">https://github.com/Nomad9-0/Doggy-Diary.git</a>
+                    <br>Link: <a href="https://pacific-ravine-32817.herokuapp.com/">https://pacific-ravine-32817.herokuapp.com/</a>
+                    <br>
+                  </p>
+                </div>
+              </div>
+    
         </div>
-        <div class="text-light bg-dark rounded" id="message" style="padding: 5px; margin-bottom: 300px">
-          <p>All apps were created as learning projects either required assignments from the UCLA Extension Coding Bootcamp cirriculum or voluntary personal learning. Most are proof-of-concept and for learning purposes only.</p>
-        </div>
+
         <div id="contact" style="height: 60px;"></div>
         <h2>Contact</h2>
         <div class="d-flex flex-row justify-content-around flex-wrap align-content-around" id="contact-icons" style="margin-bottom: 800px;">

@@ -20,13 +20,13 @@
 
 body, #welcome,  #prof-frame, #email, #resume, #linkedin, #twitter, 
 #voicemail, #github, #html, #jquery, #js, #mongo, #mysql, #node, 
-#profile, #react, #bootstrap, #ucla, #css {
+#profile, #react, #bootstrap, #ucla, #css, .app-card {
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #welcome, #prof-frame, #email, #resume, #voicemail, #github, #react,  
-#jquery, #mongo, #mysql {
+#jquery, #mongo, #mysql, .app-card {
   background-size: 100%;
 }
 
@@ -57,12 +57,38 @@ body {
   margin: 20px;
 }
 
+.app-card {
+  border-radius: 100%;
+  height: 250px;
+  width: 450px;
+}
+
 #welcome {
   background-image: url("../images/moon.jpg");
 }
 
 #prof-frame {
   background-image: url("../images/close-up-color-colour-73873.jpg");
+}
+
+#app1 {
+  background-image: url("../images/Concert-Concierge.gif");
+}
+
+#app2 {
+  background-image: url("../images/GetYourShitTogether.png");
+}
+
+#app3 {
+  background-image: url("../images/Crystal-Collector.gif");
+}
+
+#app4 {
+  background-image: url("../images/Trivia-Game.gif");
+}
+
+#app5 {
+  background-image: url("../images/doggy-diary.png");
 }
 
 #email {
