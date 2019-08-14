@@ -43,7 +43,7 @@ body, #welcome,  #prof-frame, #email, #resume, #linkedin, #twitter,
 }
 
 body {
-  background-image: url("../images/astrology-astronomy-beautiful-2387877.jpg");
+  background-image: url("../images/star-background.png");
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
