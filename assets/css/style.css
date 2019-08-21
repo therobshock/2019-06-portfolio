@@ -63,6 +63,10 @@ body {
   width: 100%;
 }
 
+.app-div {
+    width: 450px;
+}
+
 #welcome {
   background-image: url("../images/moon.jpg");
 }
@@ -165,4 +169,16 @@ footer {
   padding: 1%;
   font-style: italic;
   font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .app-div {
+        width: 300px;
+        font-size: 75%;
+    }
+
+    .app-card {
+        height: 150px;
+    }
+  
 }
