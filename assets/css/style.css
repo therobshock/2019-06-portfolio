@@ -5,11 +5,11 @@
   font-size: 18px;
 }
 
-.navbar, #message, footer {
+#message, footer {
   opacity: 0.8;
 }
 
-.jumbotron, img, .card, .carousel-caption {
+.jumbotron, img, .card {
   border-radius: 100%;
   background-color: black;
 }
