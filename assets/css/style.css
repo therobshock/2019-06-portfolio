@@ -43,7 +43,7 @@ body, #welcome,  #prof-frame, #email, #resume, #linkedin, #twitter,
 }
 
 body {
-  background-image: url("../images/star-background.png");
+  background-image: url("../images/portfolio-background.png");
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -68,11 +68,11 @@ body {
 }
 
 #welcome {
-  background-image: url("../images/moon.jpg");
+  background-image: url("../images/welcome-moon.png");
 }
 
 #prof-frame {
-  background-image: url("../images/close-up-color-colour-73873.jpg");
+  background-image: url("../images/profile-background.png");
 }
 
 #app0 {
@@ -80,7 +80,7 @@ body {
 }
 
 #app1 {
-  background-image: url("../images/Concert-Concierge.gif");
+  background-image: url("../images/Concert-Concierge.png");
 }
 
 #app2 {
@@ -88,11 +88,11 @@ body {
 }
 
 #app3 {
-  background-image: url("../images/Crystal-Collector.gif");
+  background-image: url("../images/Crystal-Collector.png");
 }
 
 #app4 {
-  background-image: url("../images/Trivia-Game.gif");
+  background-image: url("../images/Trivia-Game.png");
 }
 
 #app5 {
@@ -100,7 +100,7 @@ body {
 }
 
 #email {
-  background-image: url("../images/sun.jpg");
+  background-image: url("../images/sun.png");
 }
 
 #resume {
@@ -116,7 +116,7 @@ body {
 }
 
 #voicemail {
-  background-image: url("../images/jupiter.jpg");
+  background-image: url("../images/jupiter.png");
 }
 
 #github {
