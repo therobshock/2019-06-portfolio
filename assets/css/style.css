@@ -16,6 +16,9 @@
 
 #profile {
   max-width: 50%;
+  height: 20vh;
+  margin: 0;
+  padding: 1%;
 }
 
 body, #welcome,  #prof-frame, #email, #resume, #linkedin, #twitter, 
@@ -73,6 +76,8 @@ body {
 
 #prof-frame {
   background-image: url("../images/profile-background.png");
+  padding: 0;
+  margin: auto;
 }
 
 #app0 {
