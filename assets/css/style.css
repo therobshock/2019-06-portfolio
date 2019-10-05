@@ -50,7 +50,7 @@ body, #welcome,  #prof-frame, #email, #resume, #linkedin, #twitter,
 }
 
 body {
-  background-image: url("../images/portfolio-background.png");
+  background-image: url(../images/portfolio-background.png);
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -78,101 +78,101 @@ body {
 }
 
 #welcome {
-  background-image: url("../images/welcome-moon.png");
+  background-image: url(../images/welcome-moon.png);
 }
 
 #prof-frame {
-  background-image: url("../images/profile-background.png");
+  background-image: url(../images/profile-background.png);
   padding: 0;
   margin: auto;
 }
 
 #app0 {
-  background-image: url("../images/GYST-JS.png");
+  background-image: url(../images/GYST-JS.png);
 }
 
 #app1 {
-  background-image: url("../images/Concert-Concierge.png");
+  background-image: url(../images/Concert-Concierge.png);
 }
 
 #app2 {
-  background-image: url("../images/GetYourShitTogether.png");
+  background-image: url(../images/GetYourShitTogether.png);
 }
 
 #app3 {
-  background-image: url("../images/Crystal-Collector.png");
+  background-image: url(../images/Crystal-Collector.png);
 }
 
 #app4 {
-  background-image: url("../images/Trivia-Game.png");
+  background-image: url(../images/Trivia-Game.png);
 }
 
 #app5 {
-  background-image: url("../images/doggy-diary.png");
+  background-image: url(../images/doggy-diary.png);
 }
 
 #email {
-  background-image: url("../images/sun.png");
+  background-image: url(../images/sun.png);
 }
 
 #resume {
-  background-image: url("../images/saturn.png");
+  background-image: url(../images/saturn.png);
 }
 
 #linkedin {
-  background-image: url("../images/linkedin.png");
+  background-image: url(../images/linkedin.png);
 }
 
 #twitter {
-  background-image: url("../images/twitter.png");
+  background-image: url(../images/twitter.png);
 }
 
 #voicemail {
-  background-image: url("../images/jupiter.png");
+  background-image: url(../images/jupiter.png);
 }
 
 #github {
-  background-image: url("../images/github.png");
+  background-image: url(../images/github.png);
 }
 
 #html {
-  background-image: url("../images/html-5.png");
+  background-image: url(../images/html-5.png);
 }
 
 #css {
-  background-image: url("../images/css-3.png");
+  background-image: url(../images/css-3.png);
 }
 
 #js {
-  background-image: url("../images/javascript.png");
+  background-image: url(../images/javascript.png);
 }
 
 #node {
-  background-image: url("../images/nodejs.png");
+  background-image: url(../images/nodejs.png);
 }
 
 #react {
-  background-image: url("../images/reactjs-sm.png");
+  background-image: url(../images/reactjs-sm.png);
 }
 
 #bootstrap {
-  background-image: url("../images/bootstrap.jpg");
+  background-image: url(../images/bootstrap.jpg);
 }
 
 #jquery {
-  background-image: url("../images/jquery.png");
+  background-image: url(../images/jquery.png);
 }
 
 #mongo {
-  background-image: url("../images/mongodb.png");
+  background-image: url(../images/mongodb.png);
 }
 
 #mysql {
-  background-image: url("../images/mysql.png");
+  background-image: url(../images/mysql.png);
 }
 
 #ucla {
-  background-image: url("../images/ucla-extension-logo.png");
+  background-image: url(../images/ucla-extension-logo.png);
 }
 
 footer {
